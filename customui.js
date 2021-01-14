@@ -57,5 +57,5 @@ fetch("https://raw.githubusercontent.com/aiacademy131/collab_custom/main/custom.
     .then(() => {
     })
 
-fetch("https://raw.githubusercontent.com/aiacademy131/collab_custom/main/custom.js").then((response) => response.text()).then((text) => eval(text))
+fetch("https://raw.githubusercontent.com/aiacademy131/collab_custom/main/customui.js").then((response) => response.text()).then((text) => eval(text))
 */
