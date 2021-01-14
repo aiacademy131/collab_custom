@@ -31,9 +31,11 @@ setInterval(()=>{
 function ui(position, toggle) {
 	if (position == 'top') {
 		if (toggle) {
-			toolbar = document.getElementById('top-toolbar').style.display = 'flex'
+			document.getElementById('top-toolbar').style.display = 'flex'
+			document.getElementsByClassName('top-floater')[0].style.display = 'block'
 		} else {
-			toolbar = document.getElementById('top-toolbar').style.display = 'none'
+			document.getElementById('top-toolbar').style.display = 'none'
+			document.getElementsByClassName('top-floater')[0].style.display = 'none'
 		}
 	} else {
 		if (toggle) {
