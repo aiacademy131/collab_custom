@@ -1,8 +1,10 @@
 document.getElementById('top-toolbar').style.display = 'none'
 document.getElementsByClassName('top-floater')[0].style.display = 'none'
+
 // document.getElementById('top-toolbar').style.display = 'flex'
 document.getElementsByClassName('colab-left-pane-nib')[0].style.display = 'none'
 // document.getElementsByClassName('colab-left-pane-nib')[0].style.display = 'flex'
+
 
 setInterval(()=>{ 
 	main = document.getElementsByClassName('main-content')
