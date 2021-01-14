@@ -1,6 +1,9 @@
-toolbar = document.getElementById('top-toolbar').remove()
+toolbar = document.getElementById('top-toolbar').style.display = 'none'
+// toolbar = document.getElementById('top-toolbar').style.display = 'flex'
 
-left_panel = document.getElementsByClassName('colab-left-pane-nib')[0].remove()
+left_panel = document.getElementsByClassName('colab-left-pane-nib')[0].style.display = 'none'
+
+// left_panel = document.getElementsByClassName('colab-left-pane-nib')[0].style.display = 'flex'
 
 setInterval(()=>{ 
 	main = document.getElementsByClassName('main-content')
