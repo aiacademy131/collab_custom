@@ -27,12 +27,13 @@ setInterval(()=>{
 	}
 }, 500)
 
+
 function ui(position, toggle) {
 	if (position == 'top') {
 		if (toggle) {
-			document.getElementsByClassName('top-toolbar')[0].style.display = 'flex'
+			toolbar = document.getElementById('top-toolbar').style.display = 'flex'
 		} else {
-			document.getElementsByClassName('top-toolbar')[0].style.display = 'none'
+			toolbar = document.getElementById('top-toolbar').style.display = 'none'
 		}
 	} else {
 		if (toggle) {
@@ -43,6 +44,7 @@ function ui(position, toggle) {
 	}
 	
 }
+window.ui = ui
 
 /*
 fetch("https://raw.githubusercontent.com/aiacademy131/collab_custom/main/custom.js")
