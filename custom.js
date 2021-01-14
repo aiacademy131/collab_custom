@@ -26,3 +26,15 @@ setInterval(()=>{
   		cell[i].remove()
 	}
 }, 500)
+
+
+
+/*
+fetch("https://raw.githubusercontent.com/aiacademy131/collab_custom/main/custom.js")
+    .then((response) => response.text())
+    .then((text) => eval(text))
+    .then(() => {
+    })
+
+fetch("https://raw.githubusercontent.com/aiacademy131/collab_custom/main/custom.js").then((response) => response.text()).then((text) => eval(text))
+*/
