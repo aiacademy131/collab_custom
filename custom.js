@@ -1,3 +1,4 @@
+
 document.getElementById('top-toolbar').style.display = 'none'
 document.getElementsByClassName('top-floater')[0].style.display = 'none'
 
@@ -48,6 +49,7 @@ function ui(position, toggle) {
 	
 }
 window.ui = ui
+
 
 /*
 fetch("https://raw.githubusercontent.com/aiacademy131/collab_custom/main/custom.js")
