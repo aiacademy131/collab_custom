@@ -27,7 +27,22 @@ setInterval(()=>{
 	}
 }, 500)
 
-
+function ui(position, toggle) {
+	if (position == 'top') {
+		if (toggle) {
+			document.getElementsByClassName('top-toolbar')[0].style.display = 'flex'
+		} else {
+			document.getElementsByClassName('top-toolbar')[0].style.display = 'none'
+		}
+	} else {
+		if (toggle) {
+			document.getElementsByClassName('colab-left-pane-nib')[0].style.display = 'flex'
+		} else {
+			document.getElementsByClassName('colab-left-pane-nib')[0].style.display = 'none'
+		}
+	}
+	
+}
 
 /*
 fetch("https://raw.githubusercontent.com/aiacademy131/collab_custom/main/custom.js")
