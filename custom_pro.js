@@ -7,6 +7,11 @@ document.getElementsByClassName('colab-left-pane-nib')[0].style.display = 'none'
 
 
 setInterval(()=>{ 
+	main = document.getElementsByClassName('main-content')
+	for (var i = 0; i < main.length; i++) {
+		main[i].style.margin = "0 auto"
+	}
+
 	cell = document.getElementsByClassName('cell-toolbar')
 	for (var i = 0; i < cell.length; i++) {
   		cell[i].remove()
