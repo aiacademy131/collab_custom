@@ -10,6 +10,7 @@ setInterval(()=>{
 	main = document.getElementsByClassName('main-content')
 	for (var i = 0; i < main.length; i++) {
 		main[i].style.margin = "0 auto"
+		main[i].style.width = "880px"
 	}
 
 	cell = document.getElementsByClassName('cell-toolbar')
